@@ -1,0 +1,45 @@
+#losAngeles {
+  display: none;
+}
+
+#newYork {
+  display: none;
+  margin: 50px;
+}
+
+#chicago {
+  display: none;
+}
+
+#livingForm {
+  float: left;
+}
+
+
+body {
+  background-image: url("../img/paper.jpg");
+  background-size: cover;
+}
+
+button {
+    background-image: url("https://i.etsystatic.com/11905144/r/il/90bd89/1231386919/il_570xN.1231386919_6vt9.jpg");
+    /* background-image: url("../img/button.png"); */
+    background-repeat: no-repeat;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-family: 'Cousine', monospace;
+}
+
+img {
+  border: 5px solid tan;
+  border-spacing: 15px;
+}
+
+h1 {
+  font-family: 'Cousine', monospace;
+}
+
+p {
+  margin-top: 20px;
+  margin-right: 70px;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="shortcut icon" type="image/png" href="img/globe.png">
+    <meta charset="utf-8">
+    <title>Living Selector</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Living Selector</h1>
+    <form id="livingForm" class="info">
+    <p>1. Please select the city you think you might like the most.</p>
+      <div class="radio">
+        <label>
+          <input type="radio" name="livType" value="losAngeles" checked>
+          You like Los Angeles.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="livType" value="newYork">
+          You like New York.
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="livType" value="chicago">
+          You like Chicago.
+        </label>
+      </div>
+      <p>2. What kind of weather are you keen on?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="losAngeles" checked>
+            Sunny
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="newYork">
+            Cloudy
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="weather" value="chicago">
+            Purely Muggy
+          </label>
+        </div>
+        <p>3. Food?</p>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="losAngeles" checked>
+              Mexican
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="newYork">
+              Italian
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="chicago">
+              Polish
+            </label>
+          </div>
+          <p>4.Movie?</p>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="losAngeles" checked>
+                To Live And Die in L.A.
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="newYork">
+                Taxi Driver
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="movie" value="chicago">
+                Home Alone
+              </label>
+            </div>
+            <p>5. Color?</p>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="losAngeles" checked>
+                  Blue
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="newYork">
+                  Red
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="chicago">
+                  Yellow
+                </label>
+              </div>
+            <button type="submit" name="button">Test Your Might</button>
+          </form>
+
+
+        <!-- add .hidden to work with global varialble for addclass, toggle -->
+          <div id="losAngeles">
+            <h1>Los Angeles</h1>
+            <img src="img/la.jpg" alt="a picture" width="300px" height="300px">
+            <h5>You're moving to Los Angeles.</h5>
+          </div>
+          <div id="newYork">
+            <h1>New York</h1>
+            <img src="img/ny.jpg" alt="a picture" width="300px" height="300px">
+            <h5>You're moving to New York.</h5>
+          </div>
+          <div id="chicago">
+            <h1>Chicago</h1>
+            <img src="img/chi.jpg" alt="a picture" width="300px" height="300px">
+            <h5>You're moving to Chicago.</h5>
+          </div>
+        </div>
+  </body>
+</html>
